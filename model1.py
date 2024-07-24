@@ -10,7 +10,7 @@ import seaborn as sns
 
 # Load the dataset
 def load_data():
-    df = pd.read_csv(r"C:\Users\siddh\OneDrive\Desktop\codsoft intern\IRIS\IRIS.csv")
+    df = pd.read_csv(r"IRIS.csv")
     return df
 
 # Preprocess the data
